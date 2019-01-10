@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:\Users\UTSAV JAIN\Desktop\SecuredChat-master\AMUL.iml" filepath="C:\Users\UTSAV JAIN\Desktop\SecuredChat-master\AMUL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SecuredChat-master.iml" filepath="$PROJECT_DIR$/SecuredChat-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_margin="5dp"
+    tools:context="com.example.lokesh.amul.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My currrent IP is "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/myip"/>
+    <ListView
+        android:id="@+id/list"
+        android:layout_below="@id/myip"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </ListView>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_add_black_24dp"
+        android:id="@+id/add_network"
+        android:layout_above="@id/test"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="TEST SPEED"
+        android:id="@+id/test"
+
+        android:layout_alignParentBottom="true"/>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/add"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IP"
+        android:textSize="22sp"
+        android:id="@+id/ip"
+        android:gravity="right"
+        android:layout_below="@+id/add"
+        android:layout_toRightOf="@+id/add" />
+
+</RelativeLayout>
